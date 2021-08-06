@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .masonry {
+      column-gap: 20.3px;
+      column-count: 3;
+    }
+    .masonry-2-col {
+      column-count: 2;
+      column-gap: 20.3px;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+    .h-top {
+      height: 651.7px;
+    }
+    .h-bot {
+      height: 434.47px;
+    }
+    .h-bg {
+      height: 500px;
+    }
+    .inpw {
+      /* width: 650.78px; */
+    }
+  }
+}
