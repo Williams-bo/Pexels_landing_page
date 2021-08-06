@@ -55,7 +55,7 @@ export default {
         method: "get",
         url: "https://api.pexels.com/v1/search?query=nature&per_page=56",
         headers: {
-          Authorization: `Bearer ${process.env.VUE_APP_API_KEY}`
+          Authorization: `Bearer ${process.env.NUXT_ENV_API_KEY}`
         }
       }).then(function(response) {
         return response.data;
